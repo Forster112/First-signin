@@ -16,12 +16,12 @@
     <div>
         <form action="">
         <p class="sign">Sign up</p>
-        <p class="p2">Email<span>Already have an account?  <a href="#">  Log in</a></span></p>
-        <input type="email" class="enter">
+        <p class="p2">Email<span>Already have an account?  <a href="#" class="anchor">  Log in</a></span></p>
+        <input type="email" class="enter" required>
         <br>
         <br>
         <p class="p2">Password<span><i class="fa-solid fa-eye"></i> Show</span></p>
-        <input type="password" class="enter">
+        <input type="password" class="enter" pattern="[a-z0-9]{8,}" required>
         <br>
         <br>
         <input type="radio" id="one">
@@ -39,14 +39,14 @@
         <br>
         <button type="submit">Sign up for free</button>
         <p class="p3">By clicking the "Sign up for free" button, you are creating an account,
-            and agree to our <b>Terms of Service and Privacy Policy</b>
+            and agree to our <b>Terms of Service</b> and <b>Privacy Policy</b>
         </p>
     </form>
     </div>
     <br>
     <br>
     <footer>
-        <p class="p4">c 2022 miguel. All rights reserved. <u>Cookie policy</u>, <u>Privacy </u>and <u>Terms</u>.</p>
+        <p class="p4">c 2022 miguel. All rights reserved. <a href="#" class="anchor2">Cookie policy</a>, <a href="#" class="anchor2">Privacy</a> and <a href="#" class="anchor2">Terms</a>.</p>
     </footer>
 </body>
 </html>
