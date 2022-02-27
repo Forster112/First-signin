@@ -67,3 +67,37 @@ button{
     color: rgba(145, 144, 144, 0.8);
     text-align: center;
 }
+@media (max-width: 600px){
+    div{
+        width: 350px;
+    }
+    button{
+        width: 250px;
+    }
+    .enter{
+        width: 290px;
+    }
+    .radio{
+        font-size: 10px;
+    }
+}
+@media (max-width: 400px){
+    div{
+        width: 240px;
+    }
+    button{
+        width: 140px;
+    }
+    .enter{
+        width: 180px;
+    }
+    .sign, .p2, .p3, .p4{
+        font-size: 9px;
+    }
+    .radio{
+        font-size: 6.5px;
+    }
+    input[type='radio']{
+        height: 0.6em;
+    }
+}
