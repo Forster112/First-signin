@@ -25,3 +25,14 @@ document.querySelector('.pass').addEventListener('click', function () {
 //     }
 
 // [A - Z][a - z0 - 9]{ 8,}
+
+/* <input type="radio" class="checker" id="one">
+    <label for="one" class="radio">One lowercase character</label>
+    <span><input type="radio" class="checker" id="two">
+        <label for="two" class="radio">8 characters minimum</label></span>
+    <br>
+        <input type="radio" class="checker" id="three">
+            <label for="three" class="radio">One uppercase letter</label>
+            <br>
+                <input type="radio" class="checker" id="four">
+                    <label for="four" class="radio">One number</label> */

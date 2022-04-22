@@ -34,6 +34,9 @@ div{
     background-color:rgb(248, 248, 247) ;
     border-radius: 5px;
     border: 1px solid rgba(145, 144, 144, 0.3);
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
 }
 .pass{
     border: 0;
