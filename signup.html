@@ -16,7 +16,7 @@
 </head>
 <body>
     <div>
-        <form action="">
+        <form name="form" action="#">
         <p class="sign">Sign up</p>
         <p class="p2">Email<span class="floatLeft">Already have an account?  <a href="#" class="anchor">  Log in</a></span></p>
         <input type="email" class="enter" required>
@@ -27,11 +27,11 @@
         <br>
         <br>
         <p class="p2">Password<span class="floatLeft pass"><i class="fa-solid fa-eye"></i> <span class="hide"> Show</span></span></p>
-        <input type="password" class="enter toggled" required>
+        <input type="password" class="enter toggled" name="txt2" required>
         <br>
         <br>
         <br>
-        <button type="submit" class="submitForm">Sign up for free</button>
+        <button type="submit" class="submitForm" onclick="myPasswordCheck(document.form.txt2)">Sign up for free</button>
         <p class="p3">By clicking the "Sign up for free" button, you are creating an account,
             and agree to our <b>Terms of Service</b> and <b>Privacy Policy</b>
         </p>

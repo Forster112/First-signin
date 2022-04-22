@@ -16,23 +16,14 @@ document.querySelector('.pass').addEventListener('click', function () {
     }
 });
 
-// let myRegex = /[A-Z][a-z0-9]{8,}/;
-// let tested = myRegex.test(togglePassword.value);
-//     if (tested) {
-//         console.log('yes')
-//     } else {
-//         console.log('no');
-//     }
-
+FIXME: //feature not what we want FIXME:
+function myPasswordCheck(inputtxt) {
+    let myRegex = /[A-Z][a-z0-9]{8,}/;
+    if (inputtxt.value.match(myRegex)) {
+        return true;
+    } else {
+        togglePassword.style.borderColor = 'red';
+        return false;
+    }
+}
 // [A - Z][a - z0 - 9]{ 8,}
-
-/* <input type="radio" class="checker" id="one">
-    <label for="one" class="radio">One lowercase character</label>
-    <span><input type="radio" class="checker" id="two">
-        <label for="two" class="radio">8 characters minimum</label></span>
-    <br>
-        <input type="radio" class="checker" id="three">
-            <label for="three" class="radio">One uppercase letter</label>
-            <br>
-                <input type="radio" class="checker" id="four">
-                    <label for="four" class="radio">One number</label> */
