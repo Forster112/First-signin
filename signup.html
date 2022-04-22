@@ -9,35 +9,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/f6b73368ed.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
     <div>
         <form action="">
         <p class="sign">Sign up</p>
-        <p class="p2">Email<span>Already have an account?  <a href="#" class="anchor">  Log in</a></span></p>
+        <p class="p2">Email<span class="floatLeft">Already have an account?  <a href="#" class="anchor">  Log in</a></span></p>
         <input type="email" class="enter" required>
         <br>
         <br>
-        <p class="p2">Password<span><i class="fa-solid fa-eye"></i> Show</span></p>
-        <input type="password" class="enter" pattern="[a-z0-9]{8,}" required>
+        <p class="p2">Password<span class="floatLeft pass"><i class="fa-solid fa-eye"></i> <span class="hide"> Show</span></span></p>
+        <input type="password" class="enter toggled" required>
         <br>
         <br>
         <input type="radio" id="one">
         <label for="one" class="radio">One lowercase character</label>
-        <span><input type="radio" id="two">
-        <label for="two" class="radio">One special character</label></span>
+        <span><input type="radio" id="four">
+            <label for="four" class="radio">8 characters minimum</label></span>
         <br>
         <input type="radio" id="three">
         <label for="three" class="radio">One uppercase letter</label>
-        <span><input type="radio" id="four">
-        <label for="four" class="radio">8 characters minimum</label></span>
         <br>
         <input type="radio" id="five">
         <label for="five" class="radio">One number</label>
         <br>
-        <button type="submit">Sign up for free</button>
+        <button type="submit" class="submitForm">Sign up for free</button>
         <p class="p3">By clicking the "Sign up for free" button, you are creating an account,
             and agree to our <b>Terms of Service</b> and <b>Privacy Policy</b>
         </p>
@@ -49,5 +49,6 @@
     <footer>
         <p class="p4">c 2022 miguel. All rights reserved. <a href="#" class="anchor2">Cookie policy</a>, <a href="#" class="anchor2">Privacy</a> and <a href="#" class="anchor2">Terms</a>.</p>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>

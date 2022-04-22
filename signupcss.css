@@ -25,7 +25,7 @@ div{
     color: black;
     font-weight: 550;
 }
-span{
+.floatLeft{
     float: right;
 }
 .enter{
@@ -34,6 +34,11 @@ span{
     background-color:rgb(248, 248, 247) ;
     border-radius: 5px;
     border: 1px solid rgba(145, 144, 144, 0.3);
+}
+.pass{
+    border: 0;
+    background-color: inherit;
+    cursor: pointer;
 }
 .anchor{
     color: rgb(2, 88, 2);
@@ -48,7 +53,7 @@ span{
 label{
     color: rgba(14, 13, 13, 0.8);
 }
-button{
+.submitForm{
     margin: 3px 20px;
     width: 350px;
     height: 40px;
